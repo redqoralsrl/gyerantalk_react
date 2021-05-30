@@ -1,0 +1,42 @@
+////////////////// Node.js    port : 4000
+
+// 익스프레스 제너레이터 광역설치
+yarn global add express-generator
+// 익스프레스 프로젝트 만들기
+express react-backend
+// 자동실행, 리액과 백엔드 동시실행 라이브러리
+npm i nodemon concurrently
+// 몽구스 DB
+npm i mongoose
+// .env 사용을 위한 라이브러리
+npm i dotenv
+// 암호화 라이브러리
+npm i bcrypt
+// 토큰 기반 인증 시스템
+npm i jsonwebtoken
+// 유효검사 라이브러리
+npm i joi
+// json 정제 라이브러리
+npm i body-parser
+//
+npm i socket.io@2
+
+
+
+////////////////// React      port : 3000
+
+yarn create react-app frontend
+
+yarn add http-proxy-middleware
+
+yarn add react-redux redux redux-promise redux-thunk
+
+yarn add react-router-dom
+
+yarn add axios
+
+npm i --save @ant-design/icons
+
+yarn add socket.io-client@2.2.0
+// 동시에 백엔드와 프론트 돌릴려면 프론트에도 해줘야 한다.
+npm install

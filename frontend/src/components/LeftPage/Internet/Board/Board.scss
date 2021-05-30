@@ -1,0 +1,112 @@
+.wrapper {
+    display: block;
+    margin: 10%;
+    .btn_style{
+        background-color: #f6bd63;
+        color: #fff;
+        font-size: 13px;
+        font-weight: 700;
+    }
+    //list
+    .board_title{
+        border-bottom: 1px solid rgba(182, 182, 182, 0.521);
+        margin: 0;
+        padding-bottom: 20%;
+    }
+    .title_row{
+        display: flex;
+        position: relative;
+        align-items: center;
+        padding: 2%;
+        font-size: 13px;
+        border-bottom: 1px solid rgba(182, 182, 182, 0.521);
+        .title_text{
+            display: inline-block;
+            width: 75%;
+            margin-right: 8%;
+        }
+        .img_wrapper{
+            display: inline-block;
+            margin-bottom: -1.5%;
+            .list_profile_img{
+                border-radius: 50%;
+                width: 30px;
+                height: 30px;
+                object-fit: cover;
+            }
+        }
+    }
+    //detail create update
+    .form_group{
+        margin: 15% 0;
+        input, textarea{
+            margin-top: 5%;
+            width: 100%;
+            border: none;
+            border-bottom: 1px solid rgba(182, 182, 182, 0.521);
+            padding-bottom: 5%;
+        }
+    }
+    .btn_group{
+        display: block;
+        text-align: center;
+        margin-top: 15%;
+    }
+    //detail profile section
+    .profile_imgStyle{
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    .profile_txtStyle{
+        display: inline-block;
+        margin-left: 10%;
+        height: 50px;
+        transform: translateY(12.5px);
+    }
+}
+//bucketitem
+.item_container{
+    overflow: scroll;
+    height: 416px;
+    .item_wrapper{
+        background: #f9f9f9;
+        margin: 5%;
+        padding: 8%;
+        h5{
+            margin-top: 0;
+            margin-bottom: 8%;
+        }
+        .item_approvedAt{
+            font-size: 12px;
+            color: gray;
+            margin-bottom: 2%;
+        }
+        .item_row{
+            display: flex;
+            justify-content: space-between;
+            margin: 10% 0 10%;
+            .item_img{
+                display: inline-flex;
+                width: 25%;
+                // height: 50px;
+                img{
+                    width: 100%;
+                }
+            }
+            .item_title{
+                display: inline-flex;
+                width: 70%;
+                font-size: 11px;
+                align-items: center;
+                margin-left: 10%;
+            }
+        }
+        .item_price{
+            font-weight: 700;
+            margin-top: 5%;
+        }
+    }
+}
